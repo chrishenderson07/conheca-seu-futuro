@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image:url(/kyle-gregory-devaras-QFjSiok61xA-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+    min-height: 650px;
+    font-family: poppins,sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#futuro{
+    padding: 10px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+}
+
+img{
+    width: 50%;
+    min-width: 40%;
+    margin: 0px auto;
+}
+
+h1{
+    font-size: 2.3vw;
+    font-weight: 700;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+p{
+    color:white;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+input{
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins,sans-serif;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+button{
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    background-color: rgb(141, 55, 221);
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+button:hover{
+    background-color: rgb(103, 24, 176);
+    cursor: pointer;
+}
+
+#inputPergunta{
+    transition: opacity 1s;
+}
+
+#resposta {
+    margin-top: 30px;
+    color: white;
+
+    transition: opacity 1s;
+}
+
+#resposta div {
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+    
+}
